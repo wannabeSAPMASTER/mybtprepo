@@ -1,0 +1,17 @@
+node_modules/
+.idea/
+.mta/
+*.mtar
+package-lock.json
+mta_archives/
+deployer/resources/
+Makefile*
+mta-*
+approuter/*/webapp/
+.scp/
+.env
+Makefile*.mta
+mta_archives
+resources
+archive.zip
+.*_mta_build_tmp

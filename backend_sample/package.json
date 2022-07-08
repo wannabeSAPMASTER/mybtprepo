@@ -1,0 +1,25 @@
+{
+  "name": "portillo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "pm2 start main.js --watch",
+    "srvlist": "pm2 list",
+    "kill": "pm2 kill"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woongkipark/Portillo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woongkipark/Portillo/issues"
+  },
+  "homepage": "https://github.com/woongkipark/Portillo#readme",
+  "dependencies": {
+    "pm2": "^5.2.0",
+    "sanitize-html": "^2.7.0"
+  }
+}

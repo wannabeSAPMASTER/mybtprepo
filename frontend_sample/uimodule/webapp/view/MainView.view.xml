@@ -1,0 +1,17 @@
+<mvc:View controllerName="gitpg.myapp.controller.MainView" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:tnt="sap.tnt">
+  <Page id="page" title="{i18n>title}">
+    <content>
+      
+      <tnt:NavigationList id="navigationList" width="320px" selectedKey="Files">
+        <tnt:items>
+          <tnt:NavigationListItem id="myListItemHeader" text="myFiles" key="rootItem1" icon="sap-icon://document" items="{myNode>/}">
+            <tnt:items>
+              <tnt:NavigationListItem id="myListItem" text="{myNode>}" />
+            </tnt:items>
+          </tnt:NavigationListItem>
+        </tnt:items>
+      </tnt:NavigationList>
+    
+    </content>
+  </Page>
+</mvc:View>
