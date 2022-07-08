@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "git-front-deploy": "npm run --prefix frontend_sample build:ui && npm run git-full-deploy && git subtree push --prefix frontend_sample/uimodule/dist origin ghpage",
-    "git-back-deploy": "git subtree push --prefix backend_sample origin backend && npm run git-full-deploy",
+    "git-front-deploy": "git subtree push --prefix frontend_sample/uimodule/dist origin frontend",
+    "git-back-deploy": "git subtree push --prefix backend_sample origin backend && git-full-deploy",
     "git-full-deploy": "git add -A && git commit -m \"from VSCode Update\" && git push"
   },
   "repository": {
