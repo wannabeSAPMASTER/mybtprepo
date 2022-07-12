@@ -1,0 +1,18 @@
+<core:FragmentDefinition 
+xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc">
+
+    <VBox>
+    <Title
+        level ="H6"
+        titleStyle="H1"
+        text = "Create" />
+
+    
+	
+			<TextArea value="" rows="2" />
+            <TextArea value="" rows="8" />
+            <Button text="Submit" type="Accept" press="onPress" />
+	
+	
+    </VBox>
+</core:FragmentDefinition>
