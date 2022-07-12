@@ -23,11 +23,13 @@
 			</Title> 
 
       	<List>
-		<ActionListItem id="Link1" text="CSS" press=".onPress" />
-		<ActionListItem id="Link2" text="HTML" press=".onPress" />
-		<ActionListItem id="Link4" text="create" press=".onPress" />
-		<ActionListItem id="Link3" text="JavaScript" press=".onPress" />
-		<ActionListItem id="Link5" text="5. file list" press=".onPress"/>
+        <ActionListItem id="Link4" text="1. create" press=".onPress" />
+		    <ActionListItem id="Link1" text="2. CSS" press=".onPress" />
+        <ActionListItem id="Link5" text="3. file list" press=".onPress"/>
+		    <ActionListItem id="Link2" text="4. HTML" press=".onPress" />
+		    <ActionListItem id="Link3" text="5. JavaScript" press=".onPress" />
+
+		    
 	    </List>
 
       <HBox id="myExtend">

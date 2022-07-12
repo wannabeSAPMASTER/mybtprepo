@@ -1,0 +1,18 @@
+<core:FragmentDefinition 
+xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc">
+
+    <VBox>
+    <Title
+        level ="H6"
+        titleStyle="H1"
+        text = "Welcome" 
+        />
+
+    <Text text=" Welcome page"/>
+
+
+	
+	
+	
+    </VBox>
+</core:FragmentDefinition>

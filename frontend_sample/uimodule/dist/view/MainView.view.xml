@@ -1,8 +1,40 @@
 <mvc:View controllerName="gitpg.myapp.controller.MainView" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:tnt="sap.tnt">
   <Page id="page" title="{i18n>title}">
     <content>
-      
-      <tnt:NavigationList id="navigationList" width="320px" selectedKey="Files">
+
+      <!-- <Title level="H1" titleStyle="H1">
+						<Link text="Link1" href="https://sap.com" target="_blank" />
+			</Title> -->
+
+      <!-- <Title level="H1" titleStyle="H1">
+						<Link id="Link1" text="CSS" target="_blank" press=".onPress" />
+			</Title>
+
+      <Title level="H1" titleStyle="H1">
+						<Link id="Link2" text="HTML" target="_blank" press=".onPress" />
+			</Title>
+
+      <Title level="H1" titleStyle="H1">
+				    <Link id="Link3" text="JacaScript" target="_blank" press=".onPress" />
+			</Title> -->
+
+      <Title titleStyle="H1">
+        <Link id="Link6" text="WEB" target="_blank" press=".onPress" />
+			</Title> 
+
+      	<List>
+		<ActionListItem id="Link1" text="CSS" press=".onPress" />
+		<ActionListItem id="Link2" text="HTML" press=".onPress" />
+		<ActionListItem id="Link4" text="create" press=".onPress" />
+		<ActionListItem id="Link3" text="JavaScript" press=".onPress" />
+		<ActionListItem id="Link5" text="5. file list" press=".onPress"/>
+	    </List>
+
+      <HBox id="myExtend">
+        <!-- 추가될 화면은 여기에 렌더링 -->
+      </HBox>
+
+      <!-- <tnt:NavigationList id="navigationList" width="320px" selectedKey="Files">
         <tnt:items>
           <tnt:NavigationListItem id="myListItemHeader" text="myFiles" key="rootItem1" icon="sap-icon://document" items="{myNode>/}">
             <tnt:items>
@@ -10,7 +42,7 @@
             </tnt:items>
           </tnt:NavigationListItem>
         </tnt:items>
-      </tnt:NavigationList>
+      </tnt:NavigationList> -->
     
     </content>
   </Page>
