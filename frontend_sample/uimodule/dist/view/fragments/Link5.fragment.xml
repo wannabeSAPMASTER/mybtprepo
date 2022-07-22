@@ -10,7 +10,9 @@ xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc">
 
     <Text text="create list123"/>
     
-    
+    <List>
+        <ActionListItem id="myFiles" text="{myData>}" press=".onPress" />
+    </List>
 
     
 

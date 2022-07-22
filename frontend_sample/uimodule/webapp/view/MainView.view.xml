@@ -30,10 +30,20 @@
 		        <ActionListItem id="Link2" text="4. HTML" press=".onPress" />
 		        <ActionListItem id="Link3" text="5. JavaScript" press=".onPress" />
             </items>
-        	</List>
+        </List>
 
         <!-- // 이 아래 부분은 어그리게이션 바인딩 부분  -->
-      	<!-- <List items = "{myData>/}">  <myData>/[객체 등] 경로 표기 해야함. 그냥 순수 배열은 myData 까지만 해도 됨. -->
+
+      	<!-- <List items = "{myData>/}">  -->
+
+        <!-- <myData>/[객체 등] 경로 표기 해야함. 그냥 순수 배열은 myData 까지만 해도 됨. -->
+        <!-- 
+          <List items = "{myData>/}"> 의 myData는 실제 바인딩되는 데이터 자체를
+          <ActionListItem id="Link" text="{myData>}" 의 myData는 어떤 영역을 map할 것이냐를 정의함. 
+          즉, myData 배열을 선언한 상태로 List items="{ >/}" 에만 올리면 자리는 만들어지게 됨. 
+          text="{ >}" 에는 실제 들어가는 값이 됨. 
+         -->
+         
           <!-- <items> -->
             <!-- <ActionListItem id="Link" text="{myData>}" press=".onPress" />  -->
             <!-- 

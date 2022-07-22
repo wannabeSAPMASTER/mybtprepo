@@ -9,14 +9,30 @@ xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc">
 
     <Text text="create list"/>
 
-    <List
-		>
-		<ActionListItem  text="test" press=".onPress" />
-		<ActionListItem  text="ttt" press=".onPress" />
-		<ActionListItem  text="ㅇㅅㅅ2" press=".onPress" />
-
-	</List>
-	
+    
+    <!-- // 이 아래 부분은 어그리게이션 바인딩 부분  -->
+      	<!-- <List items = "{myData>/}">  <myData>/[객체 등] 경로 표기 해야함. 그냥 순수 배열은 myData 까지만 해도 됨. -->
+        <List items="{myData>/}"> 
+        <!-- 
+            items="{myData>}"    (X) 데이터 없음
+            items="{myData}"     (X) 데이터 없음
+            items="{myData>/}"   (O)
+         -->
+          <items>
+            <ActionListItem id="Link" text="{myData>}" press=".onPress" /> 
+            <!-- 
+                text="{myData>}"   (O)
+                text="{myData}"    (X) 3칸은 있으나, 비어있음
+                text="{myData>/}"  (X) test,ttt,ㅇㅅㅅ2
+                                       test,ttt,ㅇㅅㅅ2
+                                       test,ttt,ㅇㅅㅅ2
+             -->
+            <!-- 
+              text="{myData>filename}
+              text="{myData>filename} _ {myData>fileType}
+             -->
+          </items>
+        </List>
 	
 	
     </VBox>
