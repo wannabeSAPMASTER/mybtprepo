@@ -5,9 +5,9 @@ xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc">
     <Title
         level ="H6"
         titleStyle="H1"
-        text = "filelist123" />
+        text = "filelist" />
 
-    <Text text="create list"/>
+    <Text text="create list123"/>
     
     
 
