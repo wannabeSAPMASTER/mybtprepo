@@ -20,15 +20,15 @@
 
       <Title titleStyle="H1">
         <Link id="Link6" text="WEB" target="_blank" press=".onPress" />
-			</Title> 
+      </Title>
 
-      	<List>
-		<ActionListItem id="Link1" text="CSS" press=".onPress" />
-		<ActionListItem id="Link2" text="HTML" press=".onPress" />
-		<ActionListItem id="Link4" text="create" press=".onPress" />
-		<ActionListItem id="Link3" text="JavaScript" press=".onPress" />
-		<ActionListItem id="Link5" text="5. file list" press=".onPress"/>
-	    </List>
+      <List>
+        <ActionListItem id="Link1" text="CSS" press=".onPress" />
+        <ActionListItem id="Link2" text="HTML" press=".onPress" />
+        <ActionListItem id="Link4" text="create" press=".onPress" />
+        <ActionListItem id="Link3" text="JavaScript" press=".onPress" />
+        <ActionListItem id="Link5" text="5. file list" press=".onPress" />
+      </List>
 
       <HBox id="myExtend">
         <!-- 추가될 화면은 여기에 렌더링 -->
@@ -43,7 +43,7 @@
           </tnt:NavigationListItem>
         </tnt:items>
       </tnt:NavigationList> -->
-    
+
     </content>
   </Page>
 </mvc:View>
