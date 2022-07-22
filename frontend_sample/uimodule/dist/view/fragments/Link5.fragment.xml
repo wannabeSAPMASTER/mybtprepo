@@ -5,17 +5,22 @@ xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc">
     <Title
         level ="H6"
         titleStyle="H1"
-        text = "filelist" />
+        text = "filelist123" />
 
     <Text text="create list"/>
+    
+    
 
-    <List
-		>
+    
+
+    
+
+    <!-- <List >
 		<ActionListItem  text="test" press=".onPress" />
 		<ActionListItem  text="ttt" press=".onPress" />
 		<ActionListItem  text="ㅇㅅㅅ2" press=".onPress" />
 
-	</List>
+	</List> -->
 	
 	
 	

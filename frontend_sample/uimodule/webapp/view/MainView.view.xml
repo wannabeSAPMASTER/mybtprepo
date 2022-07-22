@@ -22,15 +22,32 @@
         <Link id="Link6" text="WEB" target="_blank" press=".onPress" />
 			</Title> 
 
-      	<List>
-        <ActionListItem id="Link4" text="1. create" press=".onPress" />
-		    <ActionListItem id="Link1" text="2. CSS" press=".onPress" />
-        <ActionListItem id="Link5" text="3. file list" press=".onPress"/>
-		    <ActionListItem id="Link2" text="4. HTML" press=".onPress" />
-		    <ActionListItem id="Link3" text="5. JavaScript" press=".onPress" />
+        <List>  
+            <items>
+            <ActionListItem id="Link4" text="1. Create" press=".onPress" />
+		        <ActionListItem id="Link1" text="2. CSS" press=".onPress" />
+            <ActionListItem id="Link5" text="3. file list" press=".onPress"/>
+		        <ActionListItem id="Link2" text="4. HTML" press=".onPress" />
+		        <ActionListItem id="Link3" text="5. JavaScript" press=".onPress" />
+            </items>
+        	</List>
 
-		    
-	    </List>
+        <!-- // 이 아래 부분은 어그리게이션 바인딩 부분  -->
+      	<!-- <List items = "{myData>/}">  <myData>/[객체 등] 경로 표기 해야함. 그냥 순수 배열은 myData 까지만 해도 됨. -->
+          <!-- <items> -->
+            <!-- <ActionListItem id="Link" text="{myData>}" press=".onPress" />  -->
+            <!-- 
+              text="{myData>filename}
+              text="{myData>filename} _ {myData>fileType}
+             -->
+          <!-- </items> -->
+
+          
+      
+            <!-- 어그리게이션 바인딩 안하고 직접 명시한 샘플 / items 가 defalut로 감싸져있음.. -->
+          
+
+          
 
       <HBox id="myExtend">
         <!-- 추가될 화면은 여기에 렌더링 -->
